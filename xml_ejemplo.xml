@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ejemplo de Tabla en XHTML</title><!-- Titulo de la pagina web-->
+</head>
+<body>
+    <table border="1"><!-- atributo que define la tabla y el tamaño del borde de la tabla -->
+        <!-- Cabecera de la tabla -->
+        <thead>
+        <!-- <thead>, <tbody>, <tfoot> Representan la cabecera, cuerpo y pie de la tabla, respectivamente. 
+        Estos elementos son opcionales, pero ayudan a estructurar y separar 
+        visualmente los diferentes partes de la tabla. -->
+            <tr><!--  Define una fila en la tabla -->
+                <th>Encabezado 1</th><!-- define una celda de encabezado -->
+                <th>Encabezado 2</th>
+                <th>Encabezado 3</th>
+            </tr>
+        </thead>
+        
+        <!-- Cuerpo de la tabla -->
+        <tbody>
+            <tr>
+                <td>Fila 15, Celda 1</td>  <!--  Define una celda de encabezado (cabecera) -->
+                <td>Fila 5, Celda 2</td>
+                <td>Fila 4, Celda 3</td>
+            </tr>
+            <tr>
+                <td>Fila 2, Celda 1</td> <!--Define una celda de datos (cuerpo)-->
+                <td>Fila 2, Celda 2</td>
+                <td>Fila 2, Celda 3</td>
+            </tr>
+        </tbody>
+        
+        <!-- Pie de la tabla -->
+        <tfoot>
+            <tr>
+                <td colspan="3">Pie de la tabla</td> <!--Atributo que indica cuántas columnas debería abarcar una celda.
+border: Atributo que define el ancho del borde de la tabla. Es opcional y se utiliza aquí con fines demostrativos.-->
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
